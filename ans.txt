@@ -1,0 +1,11 @@
+cal > out1
+date >> out1
+cat out1
+tail -3 out1
+head -7 out1 | tail -5
+head -7 out1 | tail -5 | wc -l
+echo "This day is awesome." > out2
+wc -w out2
+echo "I am looking forward to the day." >> out2
+wc -l out2
+
